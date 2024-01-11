@@ -12,7 +12,9 @@ body{
 }
 
 nav{
-    display: flex;   
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
 }
 .text-primary{
     color:#FD6E0A;
@@ -25,6 +27,8 @@ nav{
 
 nav > ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav li{
